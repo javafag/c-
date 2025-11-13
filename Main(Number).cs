@@ -7,7 +7,9 @@ public class Main_Number
         int[] arr1 = { 3, 8, 1, 6, 2, 9 };
         int[] arr2 = { 5, 10, 15, 20, 25 };
         int[] arr3 = { 7, 4, 9, 12, 1, 0 };
+        int[] numbers4 = { 7, 4, 9, 12, 1, 0 };
 
+      
         Console.WriteLine("=== Numbers1: IMinMax ===");
         Numbers1 n1 = new Numbers1(arr1);
         n1.ShowMinMax();
@@ -19,6 +21,12 @@ public class Main_Number
         Console.WriteLine("\n=== Numbers3: IMinMax + IOddEven ===");
         Numbers3 n3 = new Numbers3(arr3);
         n3.ShowAll();
+        
+        Numbers4 n4 = new Numbers4(numbers4);
+
+        Console.WriteLine("=== Numbers4: OddEven + IMinMax ===");
+        n4.ShowAll();
+        
     }
 }
 

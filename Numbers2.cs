@@ -2,7 +2,7 @@
 
 namespace ConsoleApp1;
 
-public class Numbers2 : IOddEven
+public class Numbers2 
 {
     
 

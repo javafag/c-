@@ -1,7 +1,7 @@
 ﻿namespace ConsoleApp1;
 
 
-public class Numbers3 : IMinMax, IOddEven
+public class Numbers3 : IMinMax
 {
     private int[] nums;
 
